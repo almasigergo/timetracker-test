@@ -74,18 +74,23 @@ You must refresh the page once the function has finished successfully.
 
 1. Clone the repository:
    ```sh
-   git clone <https://github.com/almasigergo/timetracker-test>
+   git clone https://github.com/almasigergo/timetracker-test
+   ```
+   
+2. Open the project folder:
+   ```sh
+   cd timetracker-test
    ```
 
-2. Install dependencies
+3. Install dependencies
    ```sh
    npm install
    ```
 
-3. Run the development server
+4. Run the development server
    ```sh
    npm run dev
    ```
 
-4. Open the app in your browser
+5. Open the app in your browser
    http://localhost:5173 (it might be different for you)

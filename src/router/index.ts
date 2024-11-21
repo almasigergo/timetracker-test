@@ -19,4 +19,10 @@ const router = createRouter({
   ],
 })
 
+router.beforeEach((to, from, next) => {
+  const defaultTitle = 'Timetracker' // Fallback title
+  document.title = to.meta.pageTitle || defaultTitle
+  next()
+})
+
 export default router
